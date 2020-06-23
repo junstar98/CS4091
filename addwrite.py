@@ -1,0 +1,5 @@
+f = open("ncdata/train1.csv", 'a')
+f2 = open("result.csv", 'r')
+f.write(f2.read())
+f2.close()
+f.close()
